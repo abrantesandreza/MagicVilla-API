@@ -1,0 +1,77 @@
+2023-08-24 22:02:32.900 -03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-24 22:02:33.114 -03:00 [DBG] Hosting starting
+2023-08-24 22:02:34.229 -03:00 [INF] Now listening on: https://localhost:7078
+2023-08-24 22:02:34.229 -03:00 [INF] Now listening on: http://localhost:5061
+2023-08-24 22:02:34.229 -03:00 [DBG] Loaded hosting startup assembly MagicVilla_VillaAPI
+2023-08-24 22:02:34.230 -03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-24 22:02:34.230 -03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-08-24 22:02:34.230 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-24 22:02:34.231 -03:00 [INF] Hosting environment: Development
+2023-08-24 22:02:34.231 -03:00 [INF] Content root path: C:\Users\andre\Desktop\MagicVilla-API\MagicVilla_VillaAPI
+2023-08-24 22:02:34.231 -03:00 [DBG] Hosting started
+2023-08-24 22:02:34.606 -03:00 [DBG] Connection id "0HMT50RRQ4JI7" accepted.
+2023-08-24 22:02:34.606 -03:00 [DBG] Connection id "0HMT50RRQ4JI7" received FIN.
+2023-08-24 22:02:34.607 -03:00 [DBG] Connection id "0HMT50RRQ4JI7" started.
+2023-08-24 22:02:34.652 -03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-24 22:02:35.838 -03:00 [DBG] Connection id "0HMT50RRQ4JI7" stopped.
+2023-08-24 22:02:35.924 -03:00 [DBG] Connection id "0HMT50RRQ4JI7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-24 22:02:36.156 -03:00 [DBG] Connection id "0HMT50RRQ4JI9" accepted.
+2023-08-24 22:02:36.228 -03:00 [DBG] Connection id "0HMT50RRQ4JI9" started.
+2023-08-24 22:02:36.927 -03:00 [DBG] Connection 0HMT50RRQ4JI9 established using the following protocol: "Tls12"
+2023-08-24 22:02:37.133 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/index.html - -
+2023-08-24 22:02:37.192 -03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-24 22:02:37.262 -03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-24 22:02:37.263 -03:00 [DBG] Request did not match any endpoints
+2023-08-24 22:02:37.543 -03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-24 22:02:37.863 -03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-24 22:02:37.870 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/index.html - - - 200 - text/html;charset=utf-8 738.8092ms
+2023-08-24 22:02:37.896 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7078/_vs/browserLink - -
+2023-08-24 22:02:37.896 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - -
+2023-08-24 22:02:37.940 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7078/_framework/aspnetcore-browser-refresh.js - - - 200 12370 application/javascript;+charset=utf-8 43.9313ms
+2023-08-24 22:02:37.974 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7078/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 78.6378ms
+2023-08-24 22:02:38.197 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - -
+2023-08-24 22:02:38.198 -03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-24 22:02:38.198 -03:00 [DBG] Request did not match any endpoints
+2023-08-24 22:02:38.690 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7078/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 492.8887ms
+2023-08-24 22:02:40.283 -03:00 [DBG] Connection id "0HMT50RRQ4JI9" received FIN.
+2023-08-24 22:02:40.293 -03:00 [DBG] Connection id "0HMT50RRQ4JI9" is closed. The last processed stream ID was 7.
+2023-08-24 22:02:40.294 -03:00 [DBG] Connection id "0HMT50RRQ4JI9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-24 22:02:40.294 -03:00 [DBG] The connection queue processing loop for 0HMT50RRQ4JI9 completed.
+2023-08-24 22:02:40.296 -03:00 [DBG] Connection id "0HMT50RRQ4JI9" stopped.
+2023-08-24 22:06:03.399 -03:00 [DBG] Connection id "0HMT50RRQ4JIA" accepted.
+2023-08-24 22:06:03.400 -03:00 [DBG] Connection id "0HMT50RRQ4JIA" started.
+2023-08-24 22:06:03.421 -03:00 [DBG] Connection 0HMT50RRQ4JIA established using the following protocol: "Tls12"
+2023-08-24 22:06:03.423 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7078/api/VillaAPI - -
+2023-08-24 22:06:03.428 -03:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2023-08-24 22:06:03.434 -03:00 [DBG] Endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2023-08-24 22:06:03.435 -03:00 [DBG] Request matched endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)'
+2023-08-24 22:06:03.440 -03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-24 22:06:03.445 -03:00 [INF] Executing endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)'
+2023-08-24 22:06:03.476 -03:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[MagicVilla_VillaAPI.Models.Dto.VillaDTO]] GetVillas() on controller MagicVilla_VillaAPI.Controllers.VillaAPIController (MagicVilla_VillaAPI).
+2023-08-24 22:06:03.478 -03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-24 22:06:03.479 -03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-24 22:06:03.479 -03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-24 22:06:03.480 -03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-24 22:06:03.480 -03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-24 22:06:03.484 -03:00 [DBG] Executing controller factory for controller MagicVilla_VillaAPI.Controllers.VillaAPIController (MagicVilla_VillaAPI)
+2023-08-24 22:06:03.486 -03:00 [DBG] Executed controller factory for controller MagicVilla_VillaAPI.Controllers.VillaAPIController (MagicVilla_VillaAPI)
+2023-08-24 22:06:03.489 -03:00 [INF] Getting all villas
+2023-08-24 22:06:03.493 -03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-08-24 22:06:03.497 -03:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-08-24 22:06:03.507 -03:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-08-24 22:06:03.507 -03:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-08-24 22:06:03.508 -03:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-08-24 22:06:03.509 -03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-08-24 22:06:03.510 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MagicVilla_VillaAPI.Models.Dto.VillaDTO, MagicVilla_VillaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-08-24 22:06:03.813 -03:00 [INF] Executed action MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI) in 327.2697ms
+2023-08-24 22:06:03.814 -03:00 [INF] Executed endpoint 'MagicVilla_VillaAPI.Controllers.VillaAPIController.GetVillas (MagicVilla_VillaAPI)'
+2023-08-24 22:06:03.814 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7078/api/VillaAPI - - - 200 272 application/json;+charset=utf-8 391.1577ms
+2023-08-24 22:06:05.498 -03:00 [DBG] Connection id "0HMT50RRQ4JIA" received FIN.
+2023-08-24 22:06:05.499 -03:00 [DBG] Connection id "0HMT50RRQ4JIA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-24 22:06:05.499 -03:00 [DBG] Connection id "0HMT50RRQ4JIA" is closed. The last processed stream ID was 1.
+2023-08-24 22:06:05.499 -03:00 [DBG] The connection queue processing loop for 0HMT50RRQ4JIA completed.
+2023-08-24 22:06:05.500 -03:00 [DBG] Connection id "0HMT50RRQ4JIA" stopped.
